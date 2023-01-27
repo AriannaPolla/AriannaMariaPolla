@@ -4,4 +4,4 @@ prove web design creAZIONE SITO
 
 SCOPO DEL REPOSITY
 
-facciamo _ repositor __ e tante prove
+facciamo _repository__ e tante prove
