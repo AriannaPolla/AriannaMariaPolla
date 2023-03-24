@@ -32,6 +32,9 @@ https://glowing-travesseiro-1f6606.netlify.app
       overflow-y: scroll;
       padding: 10px;
       margin: auto;
+    
+
+    https://glowing-travesseiro-1f6606.netlify.app
     }
     
     /* Style delle conversazioni */
