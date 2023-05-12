@@ -1,11 +1,18 @@
 body {
-  background-color: powderblue;
+  background-image: url("https://www.pinterest.it/pin/558446422559456815/");
+  background-repeat: repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+<body style="font-family: 'Gruppo', cursive;">
+  body {
+  background-color: grey;
 }
 h1 {
-  color: green;
+  color: pink;
 }
 p {
-  color: gold;
+  color: pink;
 }
 /* Impostazioni globali */
 body {
@@ -15,42 +22,8 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #000000;
 }
-
-/* Intestazione */
-header {
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-nav li {
-  margin-right: 20px;
-}
-nav li:last-child {
-  margin-right: 0;
-}
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
-}
-nav a:hover {
-  color: #0077b6;
-}
-h1 {
-  margin: 0;
-  font-size: 2rem;
-  color: #0077b6;
-}
-
 /* Contenuto principale */
 main {
   padding: 20px;
@@ -103,16 +76,11 @@ body {
 
 /* Barra di navigazione */
 nav {
-  background-color: #E6E6FA;
-  color: #997A8D;
+  background-color: #808080;
+  color: #808080;
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
+  padding: 25px;
 }
 
 .dropdown-content {
@@ -125,10 +93,6 @@ nav {
   color: #997A8D;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
-}
-
-.dropdown:hover .dropdown-content {
   display: block;
 }
 
@@ -150,8 +114,4 @@ nav {
 
 h1 {
   margin-top: 2;
-}
 
-p {
-  font-size: 1.2em;
-}
