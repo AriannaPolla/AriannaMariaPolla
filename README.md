@@ -6,9 +6,6 @@ Per realizzarlo ho utilizzato github, netifly e codepen, inserendo i giusti codi
 
 
 
-
-
-
 https://ariannapolla-portfoliodesign.netlify.app
 
 
