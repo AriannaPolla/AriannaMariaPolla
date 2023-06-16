@@ -4,4 +4,206 @@
 #offcanvasDarkNavbarLabel:hover {
   color: red;
 }
-background-image: var(--bs-gradient);.
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gruppo', cursive;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Intestazione */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav li {
+  margin-right: 20px;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #0077b6;
+}
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #0077b6;
+}
+
+/* Contenuto principale */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #0077b6;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color
+#333;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
+}
+
+ul li a:hover {
+color: #0077b6;
+}
+
+/* Piè di pagina */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+/* Stile generale del sito */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra di navigazione */
+nav {
+  background-color: #E6E6FA;
+  color: #997A8D;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #997A8D;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Contenuto della pagina */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 2;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+html,
+body
+{
+height: 100%;
+}
+header
+{
+position:relative;
+height: 100%;
+background:#fff url(beach.jpg) no-repeat center center;
+background-size:cover;
+box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+}
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
