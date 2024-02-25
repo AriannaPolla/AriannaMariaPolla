@@ -1,4 +1,4 @@
-# ESAME WEB DESIGN- SITO WEB AZIENDA "DESIGN STUDIO ARIANNA POLLA"
+# Sito Web Azienda "DESIGN STUDIO ARIANNA POLLA"
 
 Anno Accademico 2022-2023
 Polla Arianna
@@ -22,7 +22,7 @@ https://ariannapolla-portfoliodesign.netlify.app
 
 Questo repository serve a creare un nuovo sito monopagina responsive per l'azienda
 
-Elementi principali della pagina:
+# Elementi principali della pagina:
 
 Nav bar menu e hamburger menu per rendere la pagina responsive
 Nome azienda
@@ -33,14 +33,14 @@ Gallery
 Footer con contatti e profili social dell'azienda
 Form per contattare facilmente l'azienda
 
-Siti e strumenti utilizzati:
+# Siti e strumenti utilizzati:
 
 Bootstrap v5.0.2
 Fontawesome
 Google Font
 Codepen.io
 Chat Gpt
-Caratteristiche struttura e elementi pagina
+# Caratteristiche struttura e elementi pagina
 
 Html5
 
