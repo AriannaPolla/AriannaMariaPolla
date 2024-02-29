@@ -57,7 +57,15 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    height: 60px; /* Modifica questo valore per impostare l'altezza desiderata */
+    transition: background-color 0.3s ease;
+}
+
+.navbar.transparent {
+    background-color: transparent;
+}
+
+.navbar.white {
+    background-color: #ffffff;
 }
 
 .content {
