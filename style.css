@@ -57,7 +57,7 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    height: 70px; /* Modifica questo valore per impostare l'altezza desiderata */
+    height: 60px; /* Modifica questo valore per impostare l'altezza desiderata */
 }
 
 .content {
