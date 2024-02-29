@@ -51,10 +51,10 @@ body {
 }
 
 .navbar {
-    background-color: rgb(248 249 250);
+    background-color: rgb(196, 190, 190);
     position: fixed;
     width: 100%;
-    top: 10;
+    top: 0;
     left: 0;
     z-index: 1000;
 }
